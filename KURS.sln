@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KURS", "KURS.csproj", "{B50152BF-FD4B-4A2B-86C8-A1D817797C5E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "System kindergarten", "..\System kindergarten\System kindergarten.vdproj", "{2670E093-4577-4190-BF74-2F5BF28817FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B50152BF-FD4B-4A2B-86C8-A1D817797C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50152BF-FD4B-4A2B-86C8-A1D817797C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50152BF-FD4B-4A2B-86C8-A1D817797C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50152BF-FD4B-4A2B-86C8-A1D817797C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2670E093-4577-4190-BF74-2F5BF28817FE}.Debug|Any CPU.ActiveCfg = Debug
+		{2670E093-4577-4190-BF74-2F5BF28817FE}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2C3FECB-E25D-4F49-8262-9750D5244EC1}
+	EndGlobalSection
+EndGlobal

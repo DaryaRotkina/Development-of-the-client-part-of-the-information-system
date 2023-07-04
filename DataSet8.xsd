@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet8" targetNamespace="http://tempuri.org/DataSet8.xsd" xmlns:mstns="http://tempuri.org/DataSet8.xsd" xmlns="http://tempuri.org/DataSet8.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet8" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet8" msprop:Generator_DataSetName="DataSet8">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Дневник_x0020_здоровья" msprop:Generator_TableClassName="Дневник_здоровьяDataTable" msprop:Generator_TableVarName="tableДневник_здоровья" msprop:Generator_TablePropName="Дневник_здоровья" msprop:Generator_RowDeletingName="Дневник_здоровьяRowDeleting" msprop:Generator_RowChangingName="Дневник_здоровьяRowChanging" msprop:Generator_RowEvHandlerName="Дневник_здоровьяRowChangeEventHandler" msprop:Generator_RowDeletedName="Дневник_здоровьяRowDeleted" msprop:Generator_UserTableName="Дневник здоровья" msprop:Generator_RowChangedName="Дневник_здоровьяRowChanged" msprop:Generator_RowEvArgName="Дневник_здоровьяRowChangeEvent" msprop:Generator_RowClassName="Дневник_здоровьяRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="_x2116_Дневника" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="_column_Дневника" msprop:Generator_ColumnPropNameInRow="__Дневника" msprop:Generator_ColumnPropNameInTable="__ДневникаColumn" msprop:Generator_UserColumnName="№Дневника" type="xs:int" />
+              <xs:element name="Ребенок" msprop:Generator_ColumnVarNameInTable="columnРебенок" msprop:Generator_ColumnPropNameInRow="Ребенок" msprop:Generator_ColumnPropNameInTable="РебенокColumn" msprop:Generator_UserColumnName="Ребенок" type="xs:int" />
+              <xs:element name="Серия" msprop:Generator_ColumnVarNameInTable="columnСерия" msprop:Generator_ColumnPropNameInRow="Серия" msprop:Generator_ColumnPropNameInTable="СерияColumn" msprop:Generator_UserColumnName="Серия">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Группа_x0020_здоровья" msprop:Generator_ColumnVarNameInTable="columnГруппа_здоровья" msprop:Generator_ColumnPropNameInRow="Группа_здоровья" msprop:Generator_ColumnPropNameInTable="Группа_здоровьяColumn" msprop:Generator_UserColumnName="Группа здоровья">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Дата_x0020_открытия" msprop:Generator_ColumnVarNameInTable="columnДата_открытия" msprop:Generator_ColumnPropNameInRow="Дата_открытия" msprop:Generator_ColumnPropNameInTable="Дата_открытияColumn" msprop:Generator_UserColumnName="Дата открытия" type="xs:dateTime" />
+              <xs:element name="Дата_x0020_обновления" msprop:Generator_ColumnVarNameInTable="columnДата_обновления" msprop:Generator_ColumnPropNameInRow="Дата_обновления" msprop:Generator_ColumnPropNameInTable="Дата_обновленияColumn" msprop:Generator_UserColumnName="Дата обновления" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Дневник_x0020_здоровья" />
+      <xs:field xpath="mstns:_x2116_Дневника" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet6" targetNamespace="http://tempuri.org/DataSet6.xsd" xmlns:mstns="http://tempuri.org/DataSet6.xsd" xmlns="http://tempuri.org/DataSet6.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet6" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet6" msprop:Generator_DataSetName="DataSet6">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Общие_x0020_занятия" msprop:Generator_TableClassName="Общие_занятияDataTable" msprop:Generator_TableVarName="tableОбщие_занятия" msprop:Generator_TablePropName="Общие_занятия" msprop:Generator_RowDeletingName="Общие_занятияRowDeleting" msprop:Generator_RowChangingName="Общие_занятияRowChanging" msprop:Generator_RowEvHandlerName="Общие_занятияRowChangeEventHandler" msprop:Generator_RowDeletedName="Общие_занятияRowDeleted" msprop:Generator_UserTableName="Общие занятия" msprop:Generator_RowChangedName="Общие_занятияRowChanged" msprop:Generator_RowEvArgName="Общие_занятияRowChangeEvent" msprop:Generator_RowClassName="Общие_занятияRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Сотрудник" msprop:Generator_ColumnVarNameInTable="columnСотрудник" msprop:Generator_ColumnPropNameInRow="Сотрудник" msprop:Generator_ColumnPropNameInTable="СотрудникColumn" msprop:Generator_UserColumnName="Сотрудник" type="xs:int" />
+              <xs:element name="Занятие" msprop:Generator_ColumnVarNameInTable="columnЗанятие" msprop:Generator_ColumnPropNameInRow="Занятие" msprop:Generator_ColumnPropNameInTable="ЗанятиеColumn" msprop:Generator_UserColumnName="Занятие" type="xs:int" />
+              <xs:element name="Группа" msprop:Generator_ColumnVarNameInTable="columnГруппа" msprop:Generator_ColumnPropNameInRow="Группа" msprop:Generator_ColumnPropNameInTable="ГруппаColumn" msprop:Generator_UserColumnName="Группа" type="xs:int" />
+              <xs:element name="День_x0020_недели" msprop:Generator_ColumnVarNameInTable="columnДень_недели" msprop:Generator_ColumnPropNameInRow="День_недели" msprop:Generator_ColumnPropNameInTable="День_неделиColumn" msprop:Generator_UserColumnName="День недели">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Время" msprop:Generator_ColumnVarNameInTable="columnВремя" msprop:Generator_ColumnPropNameInRow="Время" msprop:Generator_ColumnPropNameInTable="ВремяColumn" msprop:Generator_UserColumnName="Время" type="xs:duration" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Общие_x0020_занятия" />
+      <xs:field xpath="mstns:Сотрудник" />
+      <xs:field xpath="mstns:День_x0020_недели" />
+      <xs:field xpath="mstns:Время" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

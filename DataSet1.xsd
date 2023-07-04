@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Сотрудник" msprop:Generator_TableClassName="СотрудникDataTable" msprop:Generator_TableVarName="tableСотрудник" msprop:Generator_RowChangedName="СотрудникRowChanged" msprop:Generator_TablePropName="Сотрудник" msprop:Generator_RowDeletingName="СотрудникRowDeleting" msprop:Generator_RowChangingName="СотрудникRowChanging" msprop:Generator_RowEvHandlerName="СотрудникRowChangeEventHandler" msprop:Generator_RowDeletedName="СотрудникRowDeleted" msprop:Generator_RowClassName="СотрудникRow" msprop:Generator_UserTableName="Сотрудник" msprop:Generator_RowEvArgName="СотрудникRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="_x2116_Сотрудника" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="_column_Сотрудника" msprop:Generator_ColumnPropNameInRow="__Сотрудника" msprop:Generator_ColumnPropNameInTable="__СотрудникаColumn" msprop:Generator_UserColumnName="№Сотрудника" type="xs:int" />
+              <xs:element name="Фамилия" msprop:Generator_ColumnVarNameInTable="columnФамилия" msprop:Generator_ColumnPropNameInRow="Фамилия" msprop:Generator_ColumnPropNameInTable="ФамилияColumn" msprop:Generator_UserColumnName="Фамилия">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Имя" msprop:Generator_ColumnVarNameInTable="columnИмя" msprop:Generator_ColumnPropNameInRow="Имя" msprop:Generator_ColumnPropNameInTable="ИмяColumn" msprop:Generator_UserColumnName="Имя">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Отчество" msprop:Generator_ColumnVarNameInTable="columnОтчество" msprop:Generator_ColumnPropNameInRow="Отчество" msprop:Generator_ColumnPropNameInTable="ОтчествоColumn" msprop:Generator_UserColumnName="Отчество">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Дата_x0020_рождения" msprop:Generator_ColumnVarNameInTable="columnДата_рождения" msprop:Generator_ColumnPropNameInRow="Дата_рождения" msprop:Generator_ColumnPropNameInTable="Дата_рожденияColumn" msprop:Generator_UserColumnName="Дата рождения" type="xs:dateTime" />
+              <xs:element name="Телефон" msprop:Generator_ColumnVarNameInTable="columnТелефон" msprop:Generator_ColumnPropNameInRow="Телефон" msprop:Generator_ColumnPropNameInTable="ТелефонColumn" msprop:Generator_UserColumnName="Телефон" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Медкнижка" msprop:Generator_ColumnVarNameInTable="columnМедкнижка" msprop:Generator_ColumnPropNameInRow="Медкнижка" msprop:Generator_ColumnPropNameInTable="МедкнижкаColumn" msprop:Generator_UserColumnName="Медкнижка">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Должность" msprop:Generator_ColumnVarNameInTable="columnДолжность" msprop:Generator_ColumnPropNameInRow="Должность" msprop:Generator_ColumnPropNameInTable="ДолжностьColumn" msprop:Generator_UserColumnName="Должность" type="xs:int" />
+              <xs:element name="Стаж" msprop:Generator_ColumnVarNameInTable="columnСтаж" msprop:Generator_ColumnPropNameInRow="Стаж" msprop:Generator_ColumnPropNameInTable="СтажColumn" msprop:Generator_UserColumnName="Стаж" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Группа" msprop:Generator_TableClassName="ГруппаDataTable" msprop:Generator_TableVarName="tableГруппа" msprop:Generator_TablePropName="Группа" msprop:Generator_RowDeletingName="ГруппаRowDeleting" msprop:Generator_RowChangingName="ГруппаRowChanging" msprop:Generator_RowEvHandlerName="ГруппаRowChangeEventHandler" msprop:Generator_RowDeletedName="ГруппаRowDeleted" msprop:Generator_UserTableName="Группа" msprop:Generator_RowChangedName="ГруппаRowChanged" msprop:Generator_RowEvArgName="ГруппаRowChangeEvent" msprop:Generator_RowClassName="ГруппаRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="_x2116_Группы" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="_column_Группы" msprop:Generator_ColumnPropNameInRow="__Группы" msprop:Generator_ColumnPropNameInTable="__ГруппыColumn" msprop:Generator_UserColumnName="№Группы" type="xs:int" />
+              <xs:element name="Название" msprop:Generator_ColumnVarNameInTable="columnНазвание" msprop:Generator_ColumnPropNameInRow="Название" msprop:Generator_ColumnPropNameInTable="НазваниеColumn" msprop:Generator_UserColumnName="Название">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Тип_x0020_группы" msprop:Generator_ColumnVarNameInTable="columnТип_группы" msprop:Generator_ColumnPropNameInRow="Тип_группы" msprop:Generator_ColumnPropNameInTable="Тип_группыColumn" msprop:Generator_UserColumnName="Тип группы" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Сотрудник" />
+      <xs:field xpath="mstns:_x2116_Сотрудника" />
+    </xs:unique>
+    <xs:unique name="Группа_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Группа" />
+      <xs:field xpath="mstns:_x2116_Группы" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
